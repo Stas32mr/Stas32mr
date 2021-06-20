@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 55px;
+    background: #344152;
+}
+.logo{
+    color: #fff;
+    font-size: 18px;
+    line-height: 55px;
+    padding-left: 10%;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 30%;
+    
+}
+.menu li{
+    float: left;
+    line-height: 55px;
+    margin-right: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu li a{
+    color: #ffffff;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 55px);
+    background: url(../img/boy.png) 90% 100%/38% 80% no-repeat, url(../img/bg.jpg) center/cover no-repeat ; 
+}
+
+.titel_cont{
+    float: left;
+    margin: 20% 0% 0% 25%;
+    color: #2c384a;
+    text-align: center;
+}
+
+.titel_cont h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.titel_cont h4{
+    margin-top: 40px;
+    font-size: 18px;
+    color: #79815d;
+}
+
+.main_button a button{
+    margin: 58px 14px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 12px;
+    padding: 0px 16px;
+}
